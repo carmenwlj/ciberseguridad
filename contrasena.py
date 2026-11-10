@@ -5,7 +5,7 @@ contrasena = "carmen"
 print(contrasena)
 
 def comprobar_longitud(contrasena):
-    return True if len(contrasena) >= 8 else False
+    return True if len(contrasena) >= 10 else False
 
 def comprobar_mayuscula(contrasena):
     return True if any(char.isupper() for char in contrasena) else False
